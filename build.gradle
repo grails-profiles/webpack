@@ -22,9 +22,9 @@ grailsPublish {
     license {
         name = 'Apache-2.0'
     }
-    title = "My Profile"
-    desc = "Full profile description"
-    developers = [johndoe:"John Doe"]
+    title = "Webpack Profile"
+    desc = "Profile for building applications with node-based frontends with webpack"
+    developers = [zacharyklein:"Zachary Klein"]
 }
 
 repositories {
