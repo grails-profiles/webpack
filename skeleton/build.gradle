@@ -1,6 +1,6 @@
 node {
-    version = '5.10.1'
-    npmVersion = '3.8.3'
+    version = '4.4.5'
+    npmVersion = '2.15.5'
     distBaseUrl = 'https://nodejs.org/dist'
     download = true
 }
