@@ -5,5 +5,5 @@ node {
     download = true
 }
 
-processResources.dependsOn(['npmInstall', 'npm_run_bundle'])
+bootRun.dependsOn(['npmInstall', 'npm_run_bundle'])
 assetCompile.dependsOn(['npmInstall', 'npm_run_bundle'])
