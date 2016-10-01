@@ -15,10 +15,8 @@ group 'org.grails.profiles'
 version '1.0.0-SNAPSHOT'
 
 grailsPublish {
-    // TODO: Provide values here
-    user = 'user'
-    key = 'key'
-    githubSlug = 'foo/bar'
+    userOrg = 'grails'
+    githubSlug = 'grails-profiles/webpack'
     license {
         name = 'Apache-2.0'
     }
