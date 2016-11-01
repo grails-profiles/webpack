@@ -1,9 +1,23 @@
 node {
-    version = '4.4.5'
-    npmVersion = '2.15.5'
-    distBaseUrl = 'https://nodejs.org/dist'
+    version = '6.9.1'
+    npmVersion = '3.10.8'
     download = true
+    nodeModulesDir = file("${project.projectDir}")
 }
 
-bootRun.dependsOn(['npmInstall', 'npm_run_bundle'])
-assetCompile.dependsOn(['npmInstall', 'npm_run_bundle'])
+
+task mochaTest {
+    dependsOn(['npmInstall', 'npm_run_test'])
+}
+
+task bundle {
+    dependsOn(['npmInstall', 'npm_run_bundle'])
+}
+
+task webpack {
+    dependsOn(['npmInstall', 'npm_run_webpack'])
+}
+
+
+bootRun.dependsOn(['bundle'])
+assetCompile.dependsOn(['bundle'])
