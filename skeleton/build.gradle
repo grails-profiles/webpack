@@ -5,11 +5,6 @@ node {
     nodeModulesDir = file("${project.projectDir}")
 }
 
-
-task mochaTest {
-    dependsOn(['npmInstall', 'npm_run_test'])
-}
-
 task bundle {
     dependsOn(['npmInstall', 'npm_run_bundle'])
 }
