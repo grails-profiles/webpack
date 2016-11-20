@@ -1,5 +1,5 @@
 {
-  "name": "@grails.codegen.projectName@",
+  "name": "@grails.app.name@",
   "version": "0.0.1",
   "description": "A profile for creating applications with node-based frontends using webpack",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "bundle": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "webpack": "1.13.2"
   }

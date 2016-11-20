@@ -13,6 +13,5 @@ task webpack {
     dependsOn(['npmInstall', 'npm_run_webpack'])
 }
 
-
 bootRun.dependsOn(['bundle'])
 assetCompile.dependsOn(['bundle'])

@@ -1,7 +1,7 @@
 description: A profile for creating applications with node-based frontends using webpack
 features:
     defaults:
-        - hibernate
+        - hibernate5
     required:
         - json-views
         - asset-pipeline
