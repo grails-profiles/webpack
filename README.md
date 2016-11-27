@@ -4,6 +4,10 @@
 
 Profile for building Grails applications with node-based frontends via webpack
 
+```
+grails create-app myApp --profile=org.grails.profiles:webpack:1.0.1
+```
+
 This profile is fairly minimal and is intended as a base for other profiles, such as the `react` profile: https://github.com/grails-profiles/react
 
 It configures webpack to bundle Javacsript source files from `src/main/webapp` and output them into the `grails-app/assets` directory. Custom tasks are added to `build.gradle` in order to streamline the bundling process when the Grails application is ran or assembled as a WAR/JAR file.
