@@ -1,9 +1,9 @@
 
+/* webpack profile */
+
 node {
     version = '6.9.1'
-    npmVersion = '3.10.8'
     download = true
-    nodeModulesDir = file("${project.projectDir}")
 }
 
 task bundle {
