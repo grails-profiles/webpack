@@ -62,7 +62,7 @@
             this application, click on each to execute its default action:
         </p>
 
-        <div id="app"></div>
+        <div id="app" style="text-align: center"></div>
         <asset:javascript src="bundle.js" />
 
         <div id="controllers" role="navigation">

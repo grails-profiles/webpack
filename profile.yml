@@ -13,6 +13,6 @@ build:
         - com.moowork.node
 dependencies:
     build:
-         - "com.moowork.gradle:gradle-node-plugin:0.13"
+         - "com.moowork.gradle:gradle-node-plugin:1.1.1"
     compile:
         - "org.grails:grails-plugin-gsp"
