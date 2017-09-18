@@ -12,7 +12,7 @@ apply plugin: "org.grails.grails-profile"
 apply plugin: "org.grails.grails-profile-publish"
 
 group 'org.grails.profiles'
-version '1.1.1'
+version '1.1.2'
 
 grailsPublish {
     userOrg = 'grails'
@@ -31,5 +31,5 @@ repositories {
 }  
 
 dependencies {
-    runtime "org.grails.profiles:rest-api:${project.grailsVersion}"
+    runtime "org.grails.profiles:web:${project.grailsVersion}"
 }
