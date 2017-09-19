@@ -1,0 +1,13 @@
+Grails Profiles encapsulate project commands, templates, and plugins.
+To create an application using the `webpack` profile you can use the next command:
+
+[source, bash]
+----
+grails create-app myapp --profile=webpack
+----
+
+Also, you could create a Grails application using the `webpack` profile with the http://start.grails.org[Grails Application Forge]
+
+image::start.png[Grails Application Forge]
+
+Grails Application Forge is a great way to discover the different provided features in the profile.
