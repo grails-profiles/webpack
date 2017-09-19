@@ -12,7 +12,7 @@ if [[ $TRAVIS_PULL_REQUEST == 'false' ]]; then
     git config --global credential.helper "store --file=~/.git-credentials"
     echo "https://$GH_TOKEN:@github.com" > ~/.git-credentials
 
-    git clone https://${GH_TOKEN}@github.com/grails-profiles/react.git -b gh-pages gh-pages --single-branch > /dev/null
+    git clone https://${GH_TOKEN}@github.com/grails-profiles/webpack.git -b gh-pages gh-pages --single-branch > /dev/null
     cd gh-pages
 
     rm -rf latest
