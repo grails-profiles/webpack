@@ -31,5 +31,5 @@ repositories {
 }  
 
 dependencies {
-    runtime "org.grails.profiles:web:${project.grailsVersion}"
+    runtime "org.grails.profiles:web:3.3.0"
 }
