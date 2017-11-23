@@ -18,9 +18,9 @@ curl -O start.grails.org/myapp.zip -d profile=webpack
 
 Grails Application Forge is a great way to discover the different provided features in the profile.
 
-This profile is fairly minimal and is intended as a base for other profiles, such as the https://grails-profiles.github.io/react/latest/guide/index.html[react] profile.
+This profile is fairly minimal and is intended as a base for other profiles, such as the https://grails-profiles.github.io/react-webpack/latest/guide/index.html[react-webpack] profile.
 
 It configures webpack to bundle Javacsript source files from src/main/webapp and output them into the `grails-app/assets` directory. Custom tasks are added to build.gradle in order to streamline the bundling process when the Grails application is ran or assembled as a WAR/JAR file.
 
-In addition the profile does provide one feature which installs the https://babeljs.io/)[babel transpiler] to bundle ES6 code. Use the `--features=babel` flag when generating your application to install the feature.
+The profile provides one (optional) feature which installs the https://babeljs.io/)[babel transpiler] to bundle ES6 code. Use the `--features=babel` flag when generating your application to install the feature.
 
