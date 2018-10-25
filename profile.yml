@@ -1,8 +1,9 @@
 description: A profile for creating applications with node-based frontends using webpack 2
 instructions: |
-    Webpack is configured to bundle static assets from src/main/webapp into grails-app/assets. The bundle will be generated when the app is started. To run webpack in "watch" mode, run the following command:
+    Webpack is configured to bundle static assets from src/main/webapp into grails-app/assets. The bundle will be generated when the app is started.
 
-    gradlew yarn_run_start
+    To run the Grails application: ./gradlew bootRun
+    To run webpack in "watch" mode: ./gradlew yarn_run_start
 
 features:
     defaults:
