@@ -1,6 +1,6 @@
 node {
-    version = '7.10.0'
-    yarnVersion = '0.21.3'
+    version = '10.15.0' // https://nodejs.org/en/
+    yarnVersion = '1.13.0' // https://yarnpkg.com/en/
     distBaseUrl = 'https://nodejs.org/dist'
     download = true
 }
