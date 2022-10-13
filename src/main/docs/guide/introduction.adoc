@@ -6,17 +6,9 @@ To create an application using the `webpack` profile you can use the next comman
 
 [source, bash]
 ----
-grails create-app myapp --profile=webpack
+grails create-app myapp --profile=org.grails.profiles:webpack:1.1.6
 ----
-
-You can also choose this project when generating your project from the http://start.grails.org[Grails Application Forge], either from the web app or via the API:
-
-[source, bash]
-----
-curl -O start.grails.org/myapp.zip -d profile=webpack
-----
-
-Grails Application Forge is a great way to discover the different provided features in the profile.
+(at the time of writing 1.1.6 was the latest version, use whatever version you see fit)
 
 This profile is fairly minimal and is intended as a base for other profiles, such as the https://grails-profiles.github.io/react-webpack/latest/guide/index.html[react-webpack] profile.
 
